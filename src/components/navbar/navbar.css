@@ -14,6 +14,8 @@
 
 .gpt3__navbar-links_logo {
   margin-right: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .gpt3__navbar-links_logo img {
@@ -125,5 +127,19 @@
 
   .gpt3__navbar-menu_container-links-sign {
     display: block;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .gpt3__navbar-links a {
+    font-size: 24px;
+  }
+  .gpt3__navbar-links_logo img {
+    width: 75px;
+    height: 25px;
+  }
+  .gpt3__navbar-sign p,
+  .gpt3__navbar-sign button {
+    font-size: 24px;
   }
 }
